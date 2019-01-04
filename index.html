@@ -2,6 +2,7 @@
 <html>
 <head>
 	<title>Tomagotchi Mini Project</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
 	<link rel="stylesheet" href="./style.css">
 	<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 	<script
@@ -11,10 +12,19 @@
     
 </head>
 <body>
-	<img src="./images/platypus.png"> 
+	<div class = "nameChange">
+	<input type="text" id="change-petName-input">
+	<button type = "button"  id = "change-pet-name">Change your pets name</button>
+	</div>
+	<img class= "pet" src="./images/platypus.png"> 
 	<div class = "petStats"></div>
-	 <input type="text" id="change-petName-input">
-	<button type = "button"  id = "change-pet-name">Change Name</button>
+	<div class = "uiWrapper">
+	<div class= "interactionWithPet">
+	<button type = "button"  id = "feed-pet">Feed your pet.</button>
+	<button type = "button"  id = "sleep">Turn off the lights.</button>
+	<button type = "button"  id = "play-with-pet">Play!</button>
+	</div>
+</div>
 	<script type="text/javascript" src="./app.js"></script>
 </body>
 </html>

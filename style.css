@@ -1,3 +1,4 @@
+
 body{
 	background-color: rgb(66, 244, 182)
 }
@@ -12,4 +13,17 @@ margin-right: auto;
 	font-family: 'Roboto', sans-serif;
 	font-size: 22px;
 	margin-left: 15px;
+	width:15%;
+	position: fixed;
+	bottom: 0;
+}
+
+.uiWrapper{
+	display: flex;
+ 	justify-content: center;
+}
+
+.nameChange{
+	display: flex;
+	justify-content: flex-end;
 }
